@@ -25,7 +25,9 @@ Further detail is provided within the documentation.
 
 ### Option One - Composer (recommended)
 
-```composer require botley/gdpr-cookies```
+```
+composer require botley/gdpr-cookies
+```
 
 Follow the remainder of the implementation steps within the documentation.
 
