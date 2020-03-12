@@ -48,6 +48,7 @@ class CookieController extends PageController
 		Cookie::set("Cookie_StrictlyNecessary", "Yes", $expiry = 30);
 		Cookie::set("Cookie_PerformanceTracking", "Yes", $expiry = 30);
 		Cookie::set("Cookie_TargetingAdvertising", "Yes", $expiry = 30);
+		die("123");
 		return $this->redirect("/");
 	}	
 	
