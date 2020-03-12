@@ -57,7 +57,7 @@ The use cases of course can be bespoke to your own application. Not all websites
 
 To check for cookie consent in a SilverStripe Controller you can call the static cookieStatus method on CookieController, passing it the type of consent to check.
 
-The method parameters match the template variables in the [.ss templates section](#ss) above.
+The method parameters match the template variables in the [.ss templates section](#ss-templates) above.
 
 Here's an example of checking for performance / tracking cookie consent within a Controller method.
 
