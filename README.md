@@ -33,7 +33,7 @@ Follow the remainder of the implementation steps within the [documentation](/doc
 
 ### Option Two - Manual Install 
 
-1. Upload the contents of this module within the following SilverStripe folder: vendor/botley/botley-gdpr-cookies
+1. Upload the contents of this module within the following SilverStripe folder: vendor/botley/gdpr-cookies
 2. Run /dev/build?flush=1
 3. Follow the remainder of the implementation steps within the [documentation](/docs/en).
 
