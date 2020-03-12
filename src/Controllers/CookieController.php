@@ -98,7 +98,7 @@ class CookieController extends PageController
 		if(!$type) {
 			$type = "Cookie_StrictlyNecessary";
 		}
-		return "12345";
+		return (Cookie::get($type)) ? true : false;
 	}	
 	
 	/**
