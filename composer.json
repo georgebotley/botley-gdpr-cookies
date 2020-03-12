@@ -1,0 +1,26 @@
+{
+  "name": "botley/gdpr-cookies",
+  "description": "GDPR Cookie Consent Module",
+  "homepage": "https://github.com/torindul/botley-gdpr-cookies",
+  "keywords": ["silverstripe", "gdpr", "cookies"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {"name": "George Botley","email": "george@botley.eu"}
+  ],
+  "support": {
+    "issues": "https://github.com/torindul/botley-gdpr-cookies"
+  },
+  "require": {
+    "silverstripe/cms": "^4",
+    "silverstripe/framework": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+        "Botley\\GDPR\\": "src/"
+    }
+  },
+  "extra": {
+    "expose": [],
+    "screenshots": []
+  }
+}
