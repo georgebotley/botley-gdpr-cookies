@@ -28,7 +28,7 @@ class GDPR_Global_Provider implements TemplateGlobalProvider
      */
     public static function AllowedCookies()
     {
-        return CookieController::cookieStatus();
+        return "12345";
     }
     
     /**
