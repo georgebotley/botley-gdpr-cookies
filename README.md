@@ -14,12 +14,12 @@ Once installed the module provides a Bootstrap Modal on first page load asking t
 
 SilverStripe template variables are made available for the purpose of checking user consent to each of these categories. It will be the responsibility of the developer to ensure that third-party services etc are only called upon where the user has consented. For example, they must have consented to tracking cookies in order for services such as Google Analytics to run their code.
 
-Further detail is provided within the documentation.
+Further detail is provided within the [documentation](/docs/en).
 
 ## Requirements
 
 - SilverStripe ^4.0
-- Bootstrap Framework (see documentation for alternatives)
+- Bootstrap Framework (see [documentation](/docs/en) for alternatives)
 
 ## Installation Instructions
 
@@ -29,12 +29,12 @@ Further detail is provided within the documentation.
 composer require botley/gdpr-cookies
 ```
 
-Follow the remainder of the implementation steps within the documentation.
+Follow the remainder of the implementation steps within the [documentation](/docs/en).
 
 ### Option Two - Manual Install 
 
 1. Upload the contents of this module within the following SilverStripe folder: vendor/botley/botley-gdpr-cookies
 2. Run /dev/build?flush=1
-3. Follow the remainder of the implementation steps within the documentation.
+3. Follow the remainder of the implementation steps within the [documentation](/docs/en).
 
 
