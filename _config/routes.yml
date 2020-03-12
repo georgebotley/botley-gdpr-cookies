@@ -1,0 +1,10 @@
+---
+Name: gdprroutes
+After:
+  - '#rootroutes'
+  - '#coreroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'cookies//$Action' : 'CookieController'
+    'CookieController' : 'CookieController'

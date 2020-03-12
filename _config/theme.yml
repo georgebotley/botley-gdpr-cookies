@@ -1,0 +1,8 @@
+---
+Name: gdprtheme
+After: '#mytheme'
+---
+SilverStripe\View\SSViewer:
+  themes:
+    - '$public'
+    - 'gdpr-cookies:cookies'
