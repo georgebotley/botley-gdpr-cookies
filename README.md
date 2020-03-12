@@ -23,6 +23,14 @@ Further detail is provided within the documentation.
 
 ## Installation Instructions
 
+### Option One - Composer (recommended)
+
+1. Run the composer command: `composer require botley/gdpr-cookies`
+2. Run /dev/build?flush=1
+3. Follow the remainder of the implementation steps within the documentation.
+
+### Option Two - Manual Install 
+
 1. Upload the contents of this module within the following SilverStripe folder: vendor/botley/botley-gdpr-cookies
 2. Run /dev/build?flush=1
 3. Follow the remainder of the implementation steps within the documentation.
