@@ -25,9 +25,9 @@ Further detail is provided within the documentation.
 
 ### Option One - Composer (recommended)
 
-1. Run the composer command: `composer require botley/gdpr-cookies`
-2. Run /dev/build?flush=1
-3. Follow the remainder of the implementation steps within the documentation.
+```composer require botley/gdpr-cookies```
+
+Follow the remainder of the implementation steps within the documentation.
 
 ### Option Two - Manual Install 
 
